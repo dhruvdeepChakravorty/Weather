@@ -40,9 +40,9 @@ let weather = async (city) => {
 
 searchBtn.addEventListener('click', () => {
     if (searchBox.value.trim()) {  
-        setTimeout(()=>{
+        
             weather(searchBox.value.trim());
-        })
+        
        
     } else {
         alert("Please enter a city name");
